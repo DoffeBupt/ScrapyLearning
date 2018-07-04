@@ -1,0 +1,19 @@
+网页都是html
+css相当于加了一个外套
+
+<!DOCTYPE html>
+<html lang="cn">    #两个html 是html代码
+<head>              #head不会显示，给浏览器看
+	<meta charset="UTF-8">
+	<title>Scraping tutorial 1 | 莫烦Python</title>
+	<link rel="icon" href="https://morvanzhou.github.io/static/img/description/tab_icon.png">
+</head>
+<body>              #body是给网页看，大多时候我们爬这里的内容
+	<h1>爬虫测试1</h1>
+	<p>
+		这是一个在 <a href="https://morvanzhou.github.io/">莫烦Python</a>
+		<a href="https://morvanzhou.github.io/tutorials/data-manipulation/scraping/">爬虫教程</a> 中的简单测试.
+	</p>
+
+</body>
+</html>
